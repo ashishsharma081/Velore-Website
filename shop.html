@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/Bootstrap/CSS/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <title>Shop</title>
+</head>
+
+<body>
+    <!--
+   Shop page header section start here 
+   -->
+
+    <section class="contact-first-sec">
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid px-5">
+                    <a class="navbar-brand" href="#">
+                        <img src="./assets/images/header-logo.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item pe-lg-3 fw-semibold">
+                                <a class="nav-link inter-font" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item pe-lg-3 fw-semibold">
+                                <a class="nav-link inter-font" aria-current="page" href="shop.html">Shop</a>
+                            </li>
+                            <li class="nav-item pe-lg-3 fw-semibold">
+                                <a class="nav-link inter-font" aria-current="page" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item pe-lg-3 fw-semibold">
+                                <a class="nav-link inter-font" aria-current="page" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item pe-lg-3 fw-semibold">
+                                <a class="nav-link inter-font" aria-current="page" href="career.html">Career</a>
+                            </li>
+                            <li class="nav-item pe-lg-3 fw-semibold">
+                                <a class="nav-link inter-font" aria-current="page" href="faq.html">FAQ's</a>
+                            </li>
+                            <li class="nav-item pe-lg-3 fw-semibold">
+                                <a class="nav-link inter-font" aria-current="page" href="contact.html">Contact</a>
+                            </li>
+
+                        </ul>
+                        <div>
+                            <a class="text-dark fs-4" href="">
+                                <i class="fa-solid fa-circle-user"></i>
+                            </a>
+                            <a class="text-dark fs-4" href="">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="top-bar bg-dark py-2">
+            <p class="text-white mb-0 text-center fw-semibold">Get 15% off on your first order</p>
+        </div>
+
+        <!--Shop Page first section starts-->
+
+<section class="shop-section py-4">
+    <div class="container">
+        <h1 class="shop-heading mb-3">Shop</h1>
+        <div class="shop-top-bar d-flex justify-content-between align-items-center mb-3">
+            <p class="results-text mb-0">Showing 1-9 of 12 results</p>
+            <select class="sort-dropdown">
+                <option>Sort by latest</option>
+                <option>Sort by popularity</option>
+                <option>Sort by price: low to high</option>
+                <option>Sort by price: high to low</option>
+            </select>
+        </div>
+        
+        <div class="row products-grid">
+            
+            <!-- Product 1: Flowline Dresses -->
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="product-card">
+                    <div class="product-image-wrapper position-relative">
+                        <div class="product-icons">
+                            <span class="icon-btn">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </span>
+                            <span class="icon-btn">
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                        </div>
+                        <img src="./assets/images/1-400x465.png" alt="Flowline Dresses" class="product-img">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">Flowline Dresses</h3>
+                        <p class="product-category mb-1">Women</p>
+                        <p class="product-price mb-2">₹200.00 – ₹250.00</p>
+                        <div class="product-sizes mb-2">
+                            <span class="size-btn">M</span>
+                            <span class="size-btn">L</span>
+                            <span class="size-btn">XL</span>
+                        </div>
+                        <div class="product-colors">
+                            <span class="color-dot" style="background: #8B5A8E;"></span>
+                            <span class="color-dot" style="background: #5B8A8A;"></span>
+                            <span class="color-dot" style="background: #A8B78A;"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 2: Essential Polos -->
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="product-card">
+                    <div class="product-image-wrapper position-relative">
+                        <div class="product-icons">
+                            <span class="icon-btn">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </span>
+                            <span class="icon-btn">
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                        </div>
+                        <img src="./assets/images/polo-tshirt-400x465.png" alt="Essential Polos" class="product-img">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">Essential Polos</h3>
+                        <p class="product-category mb-1">Men</p>
+                        <p class="product-price mb-2">₹80.00 – ₹90.00</p>
+                        <div class="product-sizes mb-2">
+                            <span class="size-btn">M</span>
+                            <span class="size-btn">L</span>
+                            <span class="size-btn">XL</span>
+                        </div>
+                        <div class="product-colors">
+                            <span class="color-dot" style="background: #7A7A9E;"></span>
+                            <span class="color-dot" style="background: #6A6A6A;"></span>
+                            <span class="color-dot" style="background: #A8B78A;"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 3: Cream T-Shirt -->
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="product-card">
+                    <div class="product-image-wrapper position-relative">
+                        <span class="sale-badge">Sale!</span>
+                        <div class="product-icons">
+                            <span class="icon-btn">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </span>
+                            <span class="icon-btn">
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                        </div>
+                        <img src="./assets/images/cream-tshirt-400x465.png" alt="Cream T-Shirt" class="product-img">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">Cream T-Shirt</h3>
+                        <p class="product-category mb-1">Men</p>
+                        <p class="product-price mb-2">₹60.00 – ₹65.00</p>
+                        <div class="product-sizes mb-2">
+                            <span class="size-btn">M</span>
+                            <span class="size-btn">L</span>
+                            <span class="size-btn">XL</span>
+                        </div>
+                        <div class="product-colors">
+                            <span class="color-dot" style="background: #C9A8C8;"></span>
+                            <span class="color-dot" style="background: #8FA8B8;"></span>
+                            <span class="color-dot" style="background: #A8C9B8;"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 4: T Jacket Combo -->
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="product-card">
+                    <div class="product-image-wrapper position-relative">
+                        <span class="sale-badge">Sale!</span>
+                        <div class="product-icons">
+                            <span class="icon-btn">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </span>
+                            <span class="icon-btn">
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                        </div>
+                        <img src="./assets/images/exclusive-jackets.png" alt="T Jacket Combo" class="product-img">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">T Jacket Combo</h3>
+                        <p class="product-category mb-1">Men</p>
+                        <p class="product-price mb-2">₹200.00 – ₹210.00</p>
+                        <div class="product-sizes mb-2">
+                            <span class="size-btn">M</span>
+                            <span class="size-btn">L</span>
+                            <span class="size-btn">XL</span>
+                        </div>
+                        <div class="product-colors">
+                            <span class="color-dot" style="background: #C9A8C8;"></span>
+                            <span class="color-dot" style="background: #6B8FA8;"></span>
+                            <span class="color-dot" style="background: #A8C9B8;"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 5: Summer T-Shirt -->
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="product-card">
+                    <div class="product-image-wrapper position-relative">
+                        <div class="product-icons">
+                            <span class="icon-btn">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </span>
+                            <span class="icon-btn">
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                        </div>
+                        <img src="./assets/images/mini-jacket-400x465.png" alt="Summer T-Shirt" class="product-img">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">Summer T-Shirt</h3>
+                        <p class="product-category mb-1">Women</p>
+                        <p class="product-price mb-2">₹130.00 – ₹135.00</p>
+                        <div class="product-sizes mb-2">
+                            <span class="size-btn">S</span>
+                            <span class="size-btn">M</span>
+                            <span class="size-btn">L</span>
+                        </div>
+                        <div class="product-colors">
+                            <span class="color-dot" style="background: #8B5A8E;"></span>
+                            <span class="color-dot" style="background: #4A5D7A;"></span>
+                            <span class="color-dot" style="background: #5B8A8A;"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 6: Princess Hoodie -->
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="product-card">
+                    <div class="product-image-wrapper position-relative">
+                        <div class="product-icons">
+                            <span class="icon-btn">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </span>
+                            <span class="icon-btn">
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                        </div>
+                        <img src="./assets/images/funky-hoodie-400x465.png" alt="Princess Hoodie" class="product-img">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">Princess Hoodie</h3>
+                        <p class="product-category mb-1">Men</p>
+                        <p class="product-price mb-2">₹130.00 – ₹140.00</p>
+                        <div class="product-sizes mb-2">
+                            <span class="size-btn">XS</span>
+                            <span class="size-btn">S</span>
+                            <span class="size-btn">M</span>
+                        </div>
+                        <div class="product-colors">
+                            <span class="color-dot" style="background: #E8D5E8;"></span>
+                            <span class="color-dot" style="background: #B8C8D8;"></span>
+                            <span class="color-dot" style="background: #D8E8D8;"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--Shop Page first section ends-->
+
+ <!--FOOTER STARTS-->
+
+  <footer class="footer-section pt-5 pb-3">
+    <div class="container">
+      <div class="row">
+
+        <!-- Logo + Info -->
+        <div class="col-md-3 mb-4">
+          <div class="d-flex align-items-center mb-3">
+            <div class="footer-logo-icon me-2">
+              <i class="bi bi-check-circle-fill text-danger fs-3"></i>
+            </div>
+            <h5 class="mb-0 text-white fw-bold">VELORA</h5>
+          </div>
+          <p class="text-white-50 small mb-3">Classic looks for Men,<br> Women & Kids.</p>
+          <div class="social-icons">
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href=""><i class="bi bi-envelope"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-md-2 mb-4">
+          <h6 class="fw-bold text-white mb-3">Quick Links</h6>
+          <ul class="list-unstyled footer-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Shop -->
+        <div class="col-md-2 mb-4">
+          <h6 class="fw-bold text-white mb-3">Shop</h6>
+          <ul class="list-unstyled footer-links">
+            <li><a href="#">Mens Wear</a></li>
+            <li><a href="#">Womens Wear</a></li>
+            <li><a href="#">Kids Wear</a></li>
+            <li><a href="#">Accessories</a></li>
+          </ul>
+        </div>
+
+        <!-- Help -->
+        <div class="col-md-2 mb-4">
+          <h6 class="fw-bold text-white mb-3">Help</h6>
+          <ul class="list-unstyled footer-links">
+            <li><a href="#">FAQ's</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Order Status</a></li>
+            <li><a href="#">Shipping & Delivery</a></li>
+          </ul>
+        </div>
+
+        <!-- My Profile -->
+        <div class="col-md-3 mb-4">
+          <h6 class="fw-bold text-white mb-3">My Profile</h6>
+          <ul class="list-unstyled footer-links">
+            <li><a href="#">My Account</a></li>
+            <li><a href="#">Track Order</a></li>
+            <li><a href="#">My Cart</a></li>
+            <li><a href="#">Order History</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+<!-- Bottom Line -->
+<div class="footer-bottom d-flex justify-content-between align-items-center pt-3 mt-3 border-top border-secondary flex-wrap">
+  <p class="text-white-50 small mb-0">
+    Copyright © 2025 Clothing Store All rights reserved
+  </p>
+
+    <div class="payment-icons d-flex align-items-center gap-2 mt-2 ">
+      <img src="./assets/images/footer-img-card.png" alt="PayPal" height="30">
+    </div>
+  </div>
+</footer>
+  <!--FOOTER END-->
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <script src="./assets/Bootstrap/JS/bootstrap.js"></script>
+</body>
+
+</html>
